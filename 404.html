@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>WGOPilot Portal - Redirect</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    const MAPPINGS = {
+  "nordvpn": "https://nordvpn.com/",
+  "nord": "https://nordvpn.com/",
+  "surfshark": "https://surfshark.com/",
+  "surf": "https://surfshark.com/",
+  "mullvad": "https://mullvad.net/",
+  "mull": "https://mullvad.net/",
+  "protonvpn": "https://protonvpn.com/",
+  "proton": "https://protonvpn.com/",
+  "pia": "https://www.privateinternetaccess.com/",
+  "ivpn": "https://www.ivpn.net/",
+  "windscribe": "https://windscribe.com/",
+  "wind": "https://windscribe.com/",
+  "hw-flint2": "https://www.gl-inet.com/products/gl-mt6000/",
+  "flint2": "https://www.gl-inet.com/products/gl-mt6000/",
+  "hw-beryl": "https://www.gl-inet.com/products/gl-mt3000/",
+  "beryl": "https://www.gl-inet.com/products/gl-mt3000/",
+  "hw-slate": "https://www.gl-inet.com/products/gl-axt1800/",
+  "slate": "https://www.gl-inet.com/products/gl-axt1800/",
+  "hw-brume2": "https://www.gl-inet.com/products/gl-mt2500/",
+  "brume2": "https://www.gl-inet.com/products/gl-mt2500/",
+  "hw-banana": "https://openwrt.org/toh/sinovoip/bananapi_bpi-r3",
+  "bpi": "https://openwrt.org/toh/sinovoip/bananapi_bpi-r3",
+  "hw-cudy": "https://www.cudy.com/products/wr3000-1-0",
+  "cudy": "https://www.cudy.com/products/wr3000-1-0",
+  "hw-friendly": "https://www.friendlyelec.com/",
+  "nanopi": "https://www.friendlyelec.com/",
+  "glinet": "https://www.gl-inet.com/",
+  "hardware": "https://openwrt.org/toh/start",
+  "sponsor": "https://github.com/Popeye-D-Sailor",
+  "support": "https://github.com/Popeye-D-Sailor",
+  "kofi": "https://ko-fi.com/",
+  "github-sponsors": "https://github.com/sponsors",
+  "ghs": "https://github.com/sponsors",
+  "liberapay": "https://liberapay.com/",
+  "bounty": "https://github.com/Popeye-D-Sailor"
+};
+    const path = window.location.pathname.replace(/^\/+/, '').replace(/\/+$/, '');
+    const parts = path.split('/');
+    let targetSlug = '';
+    if (parts.length >= 2 && parts[0] === 'go') {
+      targetSlug = parts[1].toLowerCase();
+    } else if (parts.length === 1 && parts[0]) {
+      targetSlug = parts[0].toLowerCase();
+    }
+    if (targetSlug && MAPPINGS[targetSlug]) {
+      window.location.replace(MAPPINGS[targetSlug]);
+    }
+  </script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #0b0f19;
+      color: #94a3b8;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .card {
+      background: #111827;
+      border: 1px solid #1f2937;
+      border-radius: 12px;
+      padding: 36px;
+      max-width: 480px;
+      text-align: center;
+    }
+    h2 { color: #f8fafc; margin-top: 0; }
+    a { color: #38bdf8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>WGOPilot Portal</h2>
+    <p>The requested destination could not be resolved automatically.</p>
+    <p><a href="/">Return to Official Redirect Directory</a> or visit <a href="https://github.com/Popeye-D-Sailor/wgopilot">WGOPilot on GitHub</a>.</p>
+  </div>
+</body>
+</html>
