@@ -13,7 +13,7 @@ Live redirect gateway and remote manifest host for [WGOPilot](https://github.com
 | `/go/nordvpn` | `/go/nord` | [NordVPN](https://nordvpn.com/) |
 | `/go/surfshark` | `/go/surf` | [Surfshark VPN](https://surfshark.com/) |
 | `/go/mullvad` | `/go/mull` | [Mullvad VPN](https://mullvad.net/) |
-| `/go/protonvpn` | `/go/proton` | [Proton VPN](https://protonvpn.com/) |
+| `/go/protonvpn` | `/go/proton`, `/go/prtn` | [Proton VPN](https://protonvpn.com/) |
 | `/go/pia` | - | [Private Internet Access](https://www.privateinternetaccess.com/) |
 | `/go/ivpn` | - | [IVPN](https://www.ivpn.net/) |
 | `/go/windscribe` | `/go/wind` | [Windscribe](https://windscribe.com/) |
@@ -24,13 +24,13 @@ Live redirect gateway and remote manifest host for [WGOPilot](https://github.com
 | `/go/hw-banana` | `/go/bpi` | [Bananapi BPI-R3](https://openwrt.org/toh/sinovoip/bananapi_bpi-r3) |
 | `/go/hw-cudy` | `/go/cudy` | [Cudy WR3000](https://www.cudy.com/products/wr3000-1-0) |
 | `/go/hw-friendly` | `/go/nanopi` | [FriendlyElec NanoPi](https://www.friendlyelec.com/) |
-| `/go/glinet` | - | [GL.iNet Hardware](https://www.gl-inet.com/) |
-| `/go/hardware` | - | [OpenWrt Table of Hardware](https://openwrt.org/toh/start) |
-| `/go/sponsor` | `/go/support` | [Popeye-D-Sailor Profile](https://github.com/Popeye-D-Sailor) |
+| `/go/glinet` | `/go/gl` | [GL.iNet Hardware](https://www.gl-inet.com/) |
+| `/go/hardware` | `/go/hw` | [OpenWrt Table of Hardware](https://openwrt.org/toh/start) |
+| `/go/sponsor` | `/go/support`, `/go/supp` | [Popeye-D-Sailor Profile](https://github.com/Popeye-D-Sailor) |
 | `/go/kofi` | - | [Ko-fi](https://ko-fi.com/) |
 | `/go/github-sponsors` | `/go/ghs` | [GitHub Sponsors](https://github.com/sponsors) |
 | `/go/liberapay` | - | [Liberapay](https://liberapay.com/) |
-| `/go/bounty` | - | [Project Sponsorship](https://github.com/Popeye-D-Sailor) |
+| `/go/bounty` | `/go/bnty` | [Project Bug Bounty](https://github.com/Popeye-D-Sailor/wgopilot/issues) |
 
 ## Maintenance
 

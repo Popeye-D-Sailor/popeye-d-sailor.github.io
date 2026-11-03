@@ -34,7 +34,7 @@ const REDIRECT_CONFIG = [
   {
     name: 'Proton VPN',
     key: 'URL_PROTON',
-    slugs: ['protonvpn', 'proton'],
+    slugs: ['protonvpn', 'proton', 'prtn'],
     target: 'https://protonvpn.com/',
     category: 'Commercial VPN Provider'
   },
@@ -113,14 +113,14 @@ const REDIRECT_CONFIG = [
   {
     name: 'GL.iNet Routers Hub',
     key: 'URL_GLINET',
-    slugs: ['glinet'],
+    slugs: ['glinet', 'gl'],
     target: 'https://www.gl-inet.com/',
     category: 'Recommended Router Hardware'
   },
   {
     name: 'OpenWrt Table of Hardware',
     key: 'URL_AMAZON_HW',
-    slugs: ['hardware'],
+    slugs: ['hardware', 'hw'],
     target: 'https://openwrt.org/toh/start',
     category: 'Recommended Router Hardware'
   },
@@ -129,7 +129,7 @@ const REDIRECT_CONFIG = [
   {
     name: 'Sponsor Popeye-D-Sailor',
     key: 'URL_SPONSOR',
-    slugs: ['sponsor', 'support'],
+    slugs: ['sponsor', 'support', 'supp'],
     target: 'https://github.com/Popeye-D-Sailor',
     category: 'Project Sponsorship'
   },
@@ -157,8 +157,8 @@ const REDIRECT_CONFIG = [
   {
     name: 'Project Bug Bounty / Fund',
     key: 'URL_BOUNTY',
-    slugs: ['bounty'],
-    target: 'https://github.com/Popeye-D-Sailor',
+    slugs: ['bounty', 'bnty'],
+    target: 'https://github.com/Popeye-D-Sailor/wgopilot/issues',
     category: 'Project Sponsorship'
   }
 ];
@@ -555,7 +555,7 @@ Live redirect gateway and remote manifest host for [WGOPilot](https://github.com
 | \`/go/nordvpn\` | \`/go/nord\` | [NordVPN](https://nordvpn.com/) |
 | \`/go/surfshark\` | \`/go/surf\` | [Surfshark VPN](https://surfshark.com/) |
 | \`/go/mullvad\` | \`/go/mull\` | [Mullvad VPN](https://mullvad.net/) |
-| \`/go/protonvpn\` | \`/go/proton\` | [Proton VPN](https://protonvpn.com/) |
+| \`/go/protonvpn\` | \`/go/proton\`, \`/go/prtn\` | [Proton VPN](https://protonvpn.com/) |
 | \`/go/pia\` | - | [Private Internet Access](https://www.privateinternetaccess.com/) |
 | \`/go/ivpn\` | - | [IVPN](https://www.ivpn.net/) |
 | \`/go/windscribe\` | \`/go/wind\` | [Windscribe](https://windscribe.com/) |
@@ -566,13 +566,13 @@ Live redirect gateway and remote manifest host for [WGOPilot](https://github.com
 | \`/go/hw-banana\` | \`/go/bpi\` | [Bananapi BPI-R3](https://openwrt.org/toh/sinovoip/bananapi_bpi-r3) |
 | \`/go/hw-cudy\` | \`/go/cudy\` | [Cudy WR3000](https://www.cudy.com/products/wr3000-1-0) |
 | \`/go/hw-friendly\` | \`/go/nanopi\` | [FriendlyElec NanoPi](https://www.friendlyelec.com/) |
-| \`/go/glinet\` | - | [GL.iNet Hardware](https://www.gl-inet.com/) |
-| \`/go/hardware\` | - | [OpenWrt Table of Hardware](https://openwrt.org/toh/start) |
-| \`/go/sponsor\` | \`/go/support\` | [Popeye-D-Sailor Profile](https://github.com/Popeye-D-Sailor) |
+| \`/go/glinet\` | \`/go/gl\` | [GL.iNet Hardware](https://www.gl-inet.com/) |
+| \`/go/hardware\` | \`/go/hw\` | [OpenWrt Table of Hardware](https://openwrt.org/toh/start) |
+| \`/go/sponsor\` | \`/go/support\`, \`/go/supp\` | [Popeye-D-Sailor Profile](https://github.com/Popeye-D-Sailor) |
 | \`/go/kofi\` | - | [Ko-fi](https://ko-fi.com/) |
 | \`/go/github-sponsors\` | \`/go/ghs\` | [GitHub Sponsors](https://github.com/sponsors) |
 | \`/go/liberapay\` | - | [Liberapay](https://liberapay.com/) |
-| \`/go/bounty\` | - | [Project Sponsorship](https://github.com/Popeye-D-Sailor) |
+| \`/go/bounty\` | \`/go/bnty\` | [Project Bug Bounty](https://github.com/Popeye-D-Sailor/wgopilot/issues) |
 
 ## Maintenance
 
