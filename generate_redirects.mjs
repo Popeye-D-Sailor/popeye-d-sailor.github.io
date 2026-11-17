@@ -60,68 +60,68 @@ const REDIRECT_CONFIG = [
     category: 'Commercial VPN Provider'
   },
 
-  // Recommended OpenWrt Hardware
+  // Recommended OpenWrt Hardware (Amazon Associates StoreID: wgopilot-20)
   {
     name: 'GL.iNet GL-MT6000 (Flint 2)',
     key: 'URL_HW_FLINT2',
     slugs: ['hw-flint2', 'flint2'],
-    target: 'https://www.gl-inet.com/products/gl-mt6000/',
+    target: 'https://www.amazon.com/s?k=GL.iNet+GL-MT6000+Flint+2+WiFi+6+Router&tag=wgopilot-20',
     category: 'Recommended Router Hardware'
   },
   {
     name: 'GL.iNet GL-MT3000 (Beryl AX)',
     key: 'URL_HW_BERYL',
     slugs: ['hw-beryl', 'beryl'],
-    target: 'https://www.gl-inet.com/products/gl-mt3000/',
+    target: 'https://www.amazon.com/s?k=GL.iNet+GL-MT3000+Beryl+AX+Travel+Router&tag=wgopilot-20',
     category: 'Recommended Router Hardware'
   },
   {
     name: 'GL.iNet GL-AXT1800 (Slate AX)',
     key: 'URL_HW_SLATE',
     slugs: ['hw-slate', 'slate'],
-    target: 'https://www.gl-inet.com/products/gl-axt1800/',
+    target: 'https://www.amazon.com/s?k=GL.iNet+GL-AXT1800+Slate+AX+Router&tag=wgopilot-20',
     category: 'Recommended Router Hardware'
   },
   {
     name: 'GL.iNet GL-MT2500 (Brume 2 Security Gateway)',
     key: 'URL_HW_BRUME2',
     slugs: ['hw-brume2', 'brume2'],
-    target: 'https://www.gl-inet.com/products/gl-mt2500/',
+    target: 'https://www.amazon.com/s?k=GL.iNet+GL-MT2500+Brume+2+VPN+Gateway&tag=wgopilot-20',
     category: 'Recommended Router Hardware'
   },
   {
-    name: 'Bananapi BPI-R3 OpenWrt Router',
+    name: 'Bananapi BPI-R3 / BPI-R4 OpenWrt Router',
     key: 'URL_HW_BANANA',
     slugs: ['hw-banana', 'bpi'],
-    target: 'https://openwrt.org/toh/sinovoip/bananapi_bpi-r3',
+    target: 'https://www.amazon.com/s?k=Banana+Pi+BPI-R3+BPI-R4+OpenWrt+Router&tag=wgopilot-20',
     category: 'Recommended Router Hardware'
   },
   {
     name: 'Cudy WR3000 Wi-Fi 6 Router',
     key: 'URL_HW_CUDY',
     slugs: ['hw-cudy', 'cudy'],
-    target: 'https://www.cudy.com/products/wr3000-1-0',
+    target: 'https://www.amazon.com/s?k=Cudy+WR3000+OpenWrt+WiFi+6+Router&tag=wgopilot-20',
     category: 'Recommended Router Hardware'
   },
   {
     name: 'FriendlyElec NanoPi Series',
     key: 'URL_HW_FRIENDLY',
     slugs: ['hw-friendly', 'nanopi'],
-    target: 'https://www.friendlyelec.com/',
+    target: 'https://www.amazon.com/s?k=FriendlyElec+NanoPi+R4S+R5S+R6S+Router&tag=wgopilot-20',
     category: 'Recommended Router Hardware'
   },
   {
     name: 'GL.iNet Routers Hub',
     key: 'URL_GLINET',
     slugs: ['glinet', 'gl'],
-    target: 'https://www.gl-inet.com/',
+    target: 'https://www.amazon.com/s?k=GL.iNet+WiFi+7+WiFi+6+Router+Beryl+Flint+Slate&tag=wgopilot-20',
     category: 'Recommended Router Hardware'
   },
   {
-    name: 'OpenWrt Table of Hardware',
+    name: 'Recommended OpenWrt Router Hardware (Amazon)',
     key: 'URL_AMAZON_HW',
     slugs: ['hardware', 'hw'],
-    target: 'https://openwrt.org/toh/start',
+    target: 'https://www.amazon.com/s?k=OpenWrt+WiFi+Router+GL.iNet+Flint+2+Beryl+AX+Cudy&tag=wgopilot-20',
     category: 'Recommended Router Hardware'
   },
 
