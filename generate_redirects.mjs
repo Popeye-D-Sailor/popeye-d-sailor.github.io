@@ -158,7 +158,7 @@ const REDIRECT_CONFIG = [
     name: 'Project Bug Bounty / Fund',
     key: 'URL_BOUNTY',
     slugs: ['bounty', 'bnty'],
-    target: 'https://github.com/Popeye-D-Sailor/wgopilot/issues',
+    target: 'https://github.com/Popeye-D-Sailor',
     category: 'Project Sponsorship'
   }
 ];
