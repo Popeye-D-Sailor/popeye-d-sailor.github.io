@@ -144,7 +144,7 @@ const REDIRECT_CONFIG = [
     name: 'GitHub Sponsors',
     key: 'URL_GITHUB_SPONSORS',
     slugs: ['github-sponsors', 'ghs'],
-    target: 'https://github.com/sponsors',
+    target: 'https://github.com/sponsors/Popeye-D-Sailor',
     category: 'Project Sponsorship'
   },
   {
