@@ -14,7 +14,7 @@ const REDIRECT_CONFIG = [
     name: 'NordVPN',
     key: 'URL_NORDVPN',
     slugs: ['nordvpn', 'nord'],
-    target: 'https://nordvpn.com/',
+    target: 'https://go.nordvpn.net/aff_c?offer_id=15&aff_id=161117&url_id=902',
     category: 'Commercial VPN Provider'
   },
   {
