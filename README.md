@@ -1,40 +1,41 @@
-# WGOPilot™ Official Redirect & Partner Portal
+# ✈️ WGOPilot™ — Official Product Showcase, Provider Integration & Hardware Website
 
-Live redirect gateway and remote manifest host for [WGOPilot™](https://github.com/Popeye-D-Sailor).
+Official public website and remote partner manifest repository for [**WGOPilot™ — Flight Control for WireGuard® & OpenVPN® on OpenWrt®**](https://popeye-d-sailor.github.io/), created and maintained by [**Popeye-D-Sailor**](https://github.com/Popeye-D-Sailor).
 
-- **Manifest**: [go/links.conf](go/links.conf) (`https://popeye-d-sailor.github.io/go/links.conf`)
-- **Portal URL**: `https://popeye-d-sailor.github.io/`
-- **Redirects Path**: `https://popeye-d-sailor.github.io/go/<slug>`
+- 🌐 **Live Product Website**: [https://popeye-d-sailor.github.io/](https://popeye-d-sailor.github.io/)
+- 👤 **Developer Profile**: [https://github.com/Popeye-D-Sailor](https://github.com/Popeye-D-Sailor)
 
-## Verified Slugs & Destinations
+---
 
-| Full Slug | CLI Alias | Destination |
+## 🖥️ Live Web Cockpit & 3-Step Provider Setup Wizard Preview
+
+### 1. Guided 3-Step Provider, Key & First-Flight Setup Wizard (`#/setup`)
+![WGOPilot 3-Step Provider Setup Wizard](assets/screenshots/provider-setup-wizard.png)
+
+### 2. Main Flight Deck & 4-Card Avionics HUD (`#/cockpit`)
+![WGOPilot Main Flight Deck](assets/screenshots/cockpit-flight-deck.png)
+
+### 3. Flight Wizards Hub & 9 1-Click Task Assistants (`#/quick-setup`)
+![WGOPilot Flight Wizards Hub](assets/screenshots/flight-wizards-hub.png)
+
+### 4. 5-Section Avionics Settings & Input Border Key (`#/settings`)
+![WGOPilot Avionics Settings](assets/screenshots/settings-avionics.png)
+
+---
+
+## 🌐 Commercial VPN Provider Compatibility
+
+| Provider | Native WGOPilot™ Integration | Official Link |
 | :--- | :--- | :--- |
-| `/go/nordvpn` | `/go/nord` | [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=161117&url_id=902) |
-| `/go/surfshark` | `/go/surf` | [Surfshark VPN](https://surfshark.com/) |
-| `/go/mullvad` | `/go/mull` | [Mullvad VPN](https://mullvad.net/) |
-| `/go/protonvpn` | `/go/proton`, `/go/prtn` | [Proton VPN](https://protonvpn.com/) |
-| `/go/pia` | - | [Private Internet Access](https://www.privateinternetaccess.com/) |
-| `/go/ivpn` | - | [IVPN](https://www.ivpn.net/) |
-| `/go/windscribe` | `/go/wind` | [Windscribe](https://windscribe.com/) |
-| `/go/hw-flint2` | `/go/flint2` | [GL.iNet GL-MT6000 (Flint 2)](https://www.amazon.com/s?k=GL.iNet+GL-MT6000+Flint+2+WiFi+6+Router&tag=wgopilot-20) |
-| `/go/hw-beryl` | `/go/beryl` | [GL.iNet GL-MT3000 (Beryl AX)](https://www.amazon.com/s?k=GL.iNet+GL-MT3000+Beryl+AX+Travel+Router&tag=wgopilot-20) |
-| `/go/hw-slate` | `/go/slate` | [GL.iNet GL-AXT1800 (Slate AX)](https://www.amazon.com/s?k=GL.iNet+GL-AXT1800+Slate+AX+Router&tag=wgopilot-20) |
-| `/go/hw-brume2` | `/go/brume2` | [GL.iNet GL-MT2500 (Brume 2)](https://www.amazon.com/s?k=GL.iNet+GL-MT2500+Brume+2+VPN+Gateway&tag=wgopilot-20) |
-| `/go/hw-banana` | `/go/bpi` | [Bananapi BPI-R3 / BPI-R4](https://www.amazon.com/s?k=Banana+Pi+BPI-R3+BPI-R4+OpenWrt+Router&tag=wgopilot-20) |
-| `/go/hw-cudy` | `/go/cudy` | [Cudy WR3000](https://www.amazon.com/s?k=Cudy+WR3000+OpenWrt+WiFi+6+Router&tag=wgopilot-20) |
-| `/go/hw-friendly` | `/go/nanopi` | [FriendlyElec NanoPi](https://www.amazon.com/s?k=FriendlyElec+NanoPi+R4S+R5S+R6S+Router&tag=wgopilot-20) |
-| `/go/glinet` | `/go/gl` | [GL.iNet Hardware](https://www.amazon.com/s?k=GL.iNet+WiFi+7+WiFi+6+Router+Beryl+Flint+Slate&tag=wgopilot-20) |
-| `/go/hardware` | `/go/hw` | [Recommended OpenWrt Router Hardware (Amazon)](https://www.amazon.com/s?k=OpenWrt+WiFi+Router+GL.iNet+Flint+2+Beryl+AX+Cudy&tag=wgopilot-20) |
-| `/go/sponsor` | `/go/support`, `/go/supp` | [Ko-fi (Popeye-D-Sailor)](https://ko-fi.com/popeyedsailor) |
-| `/go/kofi` | - | [Ko-fi (Popeye-D-Sailor)](https://ko-fi.com/popeyedsailor) |
-| `/go/github-sponsors` | `/go/ghs` | [GitHub Sponsors (Popeye-D-Sailor)](https://github.com/sponsors/Popeye-D-Sailor) |
-| `/go/liberapay` | - | [Liberapay](https://liberapay.com/) |
-| `/go/bounty` | `/go/bnty` | [Project Bug Bounty / Fund](https://github.com/Popeye-D-Sailor) |
+| **NordVPN®** | Automated token provisioning & key registration for **NordLynx®** (**WireGuard®**), real-time server load & city discovery, **OpenVPN®** UDP/TCP :443 profiles | [Visit NordVPN® ↗](https://popeye-d-sailor.github.io/go/nordvpn) |
+| **Surfshark®** | Automated **WireGuard®** key & profile provisioning, city/country relay catalog, MultiHop & Warm Standby failover | [Visit Surfshark® ↗](https://popeye-d-sailor.github.io/go/surfshark) |
+| **Proton VPN®** | Native **WireGuard®** & **OpenVPN®** profile management, Secure Core, P2P & NAT-PMP Port Forwarding | [Visit Proton VPN® ↗](https://popeye-d-sailor.github.io/go/protonvpn) |
+| **Private Internet Access® (PIA®)** | Automated token authentication, **WireGuard®** public key registration & automated PIA® Port Forwarding daemon | [Visit PIA® ↗](https://popeye-d-sailor.github.io/go/pia) |
+| **Mullvad®** | Native relay catalog discovery, multihop/bridge pairing & AES-256 Hardware Vault key management | [Visit Mullvad® ↗](https://popeye-d-sailor.github.io/go/mullvad) |
 
-## Maintenance
+---
 
-To re-generate all redirects and manifests, run:
-```bash
-node generate_redirects.mjs
-```
+## ⚖️ FTC Affiliate Disclosure & Trademark Notice
+
+- **FTC & Amazon Associates Disclosure (16 CFR Part 255)**: WGOPilot™ and `https://popeye-d-sailor.github.io` contain referral and affiliate links for select VPN services and router hardware. If you purchase a subscription or device through one of these links, the project maintainer may receive an affiliate commission at no additional cost to you. **As an Amazon Associate I earn from qualifying purchases.**
+- **Copyright & Trademarks**: Copyright © 2026 Popeye-D-Sailor. "WGOPilot™" is a trademark of Popeye-D-Sailor. "WireGuard®" is a registered trademark of Jason A. Donenfeld. "OpenVPN®" is a registered trademark of OpenVPN Inc. "OpenWrt®" is a registered trademark of Software in the Public Interest, Inc. (SPI). All third-party product and company names are trademarks™ or registered® trademarks of their respective holders.
